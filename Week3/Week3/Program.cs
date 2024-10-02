@@ -27,6 +27,37 @@ namespace Week3
             }
 
 
+            public void swap(ref int x, ref int y)
+            {
+                int temp;
+
+                temp = x;
+                x = y;
+                y = temp;
+            }
+
+            public void getValue(out int x)
+            {
+                int temp = 5;
+                x = temp;
+            }
+
+
+            public void getValues(out int x, out int y)
+            {
+                Console.WriteLine("Enter the first value: ");
+                x = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("Enter the second value: ");
+                y = Convert.ToInt32(Console.ReadLine());
+            }
+
+
+
+
+
+
+
             static void Main(string[] args)
             {
                 //MyArray app = new MyArray();
@@ -57,46 +88,91 @@ namespace Week3
 
 
 
-                ArrayList list_1 = new ArrayList();
-                // OR
-                var list_2 = new ArrayList();
+                //ArrayList list_1 = new ArrayList();
+                //// OR
+                //var list_2 = new ArrayList();
 
-                list_1.Add(1);
-                list_1.Add("Bill");
-                list_1.Add(3.14);
-                list_1.Add(true);
-                list_1.Add(null);
+                //list_1.Add(1);
+                //list_1.Add("Bill");
+                //list_1.Add(3.14);
+                //list_1.Add(true);
+                //list_1.Add(null);
 
-                var list_3 = new ArrayList()
-                {
-                    2, "Steve", 6.28, false, null
-                };
+                //var list_3 = new ArrayList()
+                //{
+                //    2, "Steve", 6.28, false, null
+                //};
 
+                //int[] arr = new int[] { 1, 2, 3, 4, 5 };
 
-                int[] arr = new int[] { 1, 2, 3, 4, 5 };
+                //Queue myQ = new Queue();
+                //myQ.Enqueue("Hello");
+                //myQ.Enqueue("World");
 
-                Queue myQ = new Queue();
-                myQ.Enqueue("Hello");
-                myQ.Enqueue("World");
+                //list_1.AddRange(arr);
+                //list_1.AddRange(myQ);
+                //list_1.AddRange(list_3);
 
-                list_1.AddRange(arr);
-                list_1.AddRange(myQ);
-                list_1.AddRange(list_3);
+                //foreach (var item in list_1)
+                //{
+                //    Console.WriteLine(item + ", ");
+                //}
 
-
-                foreach (var item in list_1)
-                {
-                    Console.WriteLine(item + ", ");
-                }
-
-                for(int i = 0; i < list_1.Count; i++)
-                {
-                    Console.WriteLine(list_1[i] + ", ");
-                }
-
+                //for(int i = 0; i < list_1.Count; i++)
+                //{
+                //    Console.WriteLine(list_1[i] + ", ");
+                //}
+                //Console.ReadLine();
 
 
 
+
+
+
+                //MyArray n = new MyArray();
+
+                //int a = 100;
+                //int b = 200;
+
+                //Console.WriteLine("Before swap, value of a : {0}", a);
+                //Console.WriteLine("Before swap, value of b : {0}", b);
+
+                //n.swap(ref a, ref b);
+
+                //Console.WriteLine("After swap, value of a : {0}", a);
+                //Console.WriteLine("After swap, value of b : {0}", b);
+
+                //Console.ReadLine();
+
+
+
+
+
+                //MyArray n = new MyArray();
+
+                //int a = 100;
+
+                //Console.WriteLine("Before method call, value of a : {0}", a);
+
+                //n.getValue(out a);
+
+                //Console.WriteLine("After method call, value of a : {0}", a);
+                //Console.ReadLine();
+
+
+
+
+
+
+                MyArray n = new MyArray();
+
+                int a, b;
+
+                n.getValues(out a, out b);
+
+                Console.WriteLine("After method call, value of a : {0}", a);
+                Console.WriteLine("After method call, value of b : {0}", b);
+                Console.ReadLine();
 
 
             }
