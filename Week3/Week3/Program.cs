@@ -164,15 +164,33 @@ namespace Week3
 
 
 
-                MyArray n = new MyArray();
+                //MyArray n = new MyArray();
 
-                int a, b;
+                //int a, b;
 
-                n.getValues(out a, out b);
+                //n.getValues(out a, out b);
 
-                Console.WriteLine("After method call, value of a : {0}", a);
-                Console.WriteLine("After method call, value of b : {0}", b);
-                Console.ReadLine();
+                //Console.WriteLine("After method call, value of a : {0}", a);
+                //Console.WriteLine("After method call, value of b : {0}", b);
+                //Console.ReadLine();
+
+
+
+
+
+
+                //DateTime dt = new DateTime();
+                //Console.WriteLine(dt);
+
+                //DateTime dt1 = new DateTime(2021, 3, 7);
+                //Console.WriteLine(dt1);
+
+                //DateTime dt2 = new DateTime(2021, 3, 7, 8, 30, 52);
+                //Console.WriteLine(dt2);
+
+                //DateTime dt3 = new DateTime(2021, 3, 7, 8, 30, 52, DateTimeKind.Utc);
+                //Console.WriteLine(dt3);
+
 
 
             }
