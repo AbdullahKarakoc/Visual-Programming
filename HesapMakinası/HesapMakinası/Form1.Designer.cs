@@ -41,7 +41,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label1.Location = new System.Drawing.Point(557, 84);
+            this.label1.Location = new System.Drawing.Point(546, 128);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(76, 16);
             this.label1.TabIndex = 0;
@@ -52,7 +52,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label2.Location = new System.Drawing.Point(557, 131);
+            this.label2.Location = new System.Drawing.Point(546, 175);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(67, 16);
             this.label2.TabIndex = 1;
@@ -61,7 +61,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.button1.Location = new System.Drawing.Point(589, 213);
+            this.button1.Location = new System.Drawing.Point(578, 257);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(118, 40);
             this.button1.TabIndex = 2;
@@ -83,7 +83,7 @@
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox1.Location = new System.Drawing.Point(668, 84);
+            this.textBox1.Location = new System.Drawing.Point(657, 128);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 22);
             this.textBox1.TabIndex = 4;
@@ -91,9 +91,10 @@
             // textBox2
             // 
             this.textBox2.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox2.Location = new System.Drawing.Point(668, 128);
+            this.textBox2.Location = new System.Drawing.Point(657, 172);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(100, 22);
             this.textBox2.TabIndex = 5;
             // 

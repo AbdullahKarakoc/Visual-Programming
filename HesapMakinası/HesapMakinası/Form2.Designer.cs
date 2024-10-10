@@ -28,268 +28,284 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
+            this.ekranLabel = new System.Windows.Forms.Label();
+            this.rakam1Button = new System.Windows.Forms.Button();
+            this.rakam6Button = new System.Windows.Forms.Button();
+            this.rakam5Button = new System.Windows.Forms.Button();
+            this.rakam4Button = new System.Windows.Forms.Button();
+            this.rakam3Button = new System.Windows.Forms.Button();
+            this.rakam2Button = new System.Windows.Forms.Button();
+            this.rakam9Button = new System.Windows.Forms.Button();
+            this.rakam8Button = new System.Windows.Forms.Button();
+            this.rakam7Button = new System.Windows.Forms.Button();
+            this.carpButton = new System.Windows.Forms.Button();
+            this.cikarButton = new System.Windows.Forms.Button();
+            this.toplaButton = new System.Windows.Forms.Button();
+            this.bolButton = new System.Windows.Forms.Button();
+            this.sonucButton = new System.Windows.Forms.Button();
+            this.rakam0Button = new System.Windows.Forms.Button();
+            this.clearButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // ekranLabel
             // 
-            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Millimeter, ((byte)(162)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(31, 18);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label1.Size = new System.Drawing.Size(705, 48);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "0";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.ekranLabel.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ekranLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.ekranLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Millimeter, ((byte)(162)));
+            this.ekranLabel.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.ekranLabel.Location = new System.Drawing.Point(31, 18);
+            this.ekranLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.ekranLabel.Name = "ekranLabel";
+            this.ekranLabel.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.ekranLabel.Size = new System.Drawing.Size(377, 48);
+            this.ekranLabel.TabIndex = 0;
+            this.ekranLabel.Text = "0";
+            this.ekranLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.ekranLabel.Click += new System.EventHandler(this.label1_Click);
             // 
-            // button1
+            // rakam1Button
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.button1.Location = new System.Drawing.Point(220, 156);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(44, 45);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "1";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.rakam1Button.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.rakam1Button.Location = new System.Drawing.Point(92, 127);
+            this.rakam1Button.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.rakam1Button.Name = "rakam1Button";
+            this.rakam1Button.Size = new System.Drawing.Size(44, 45);
+            this.rakam1Button.TabIndex = 1;
+            this.rakam1Button.Text = "1";
+            this.rakam1Button.UseVisualStyleBackColor = false;
+            this.rakam1Button.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // rakam6Button
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.button2.Location = new System.Drawing.Point(328, 227);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(44, 45);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "6";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.rakam6Button.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.rakam6Button.Location = new System.Drawing.Point(196, 198);
+            this.rakam6Button.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.rakam6Button.Name = "rakam6Button";
+            this.rakam6Button.Size = new System.Drawing.Size(44, 45);
+            this.rakam6Button.TabIndex = 2;
+            this.rakam6Button.Text = "6";
+            this.rakam6Button.UseVisualStyleBackColor = false;
+            this.rakam6Button.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // rakam5Button
             // 
-            this.button3.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.button3.Location = new System.Drawing.Point(276, 227);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(44, 45);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "5";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.rakam5Button.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.rakam5Button.Location = new System.Drawing.Point(144, 198);
+            this.rakam5Button.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.rakam5Button.Name = "rakam5Button";
+            this.rakam5Button.Size = new System.Drawing.Size(44, 45);
+            this.rakam5Button.TabIndex = 3;
+            this.rakam5Button.Text = "5";
+            this.rakam5Button.UseVisualStyleBackColor = false;
+            this.rakam5Button.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button4
+            // rakam4Button
             // 
-            this.button4.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.button4.Location = new System.Drawing.Point(220, 227);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(44, 45);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "4";
-            this.button4.UseVisualStyleBackColor = false;
+            this.rakam4Button.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.rakam4Button.Location = new System.Drawing.Point(92, 198);
+            this.rakam4Button.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.rakam4Button.Name = "rakam4Button";
+            this.rakam4Button.Size = new System.Drawing.Size(44, 45);
+            this.rakam4Button.TabIndex = 4;
+            this.rakam4Button.Text = "4";
+            this.rakam4Button.UseVisualStyleBackColor = false;
+            this.rakam4Button.Click += new System.EventHandler(this.rakam4Button_Click);
             // 
-            // button5
+            // rakam3Button
             // 
-            this.button5.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.button5.Location = new System.Drawing.Point(328, 156);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(44, 45);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "3";
-            this.button5.UseVisualStyleBackColor = false;
+            this.rakam3Button.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.rakam3Button.Location = new System.Drawing.Point(196, 127);
+            this.rakam3Button.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.rakam3Button.Name = "rakam3Button";
+            this.rakam3Button.Size = new System.Drawing.Size(44, 45);
+            this.rakam3Button.TabIndex = 5;
+            this.rakam3Button.Text = "3";
+            this.rakam3Button.UseVisualStyleBackColor = false;
+            this.rakam3Button.Click += new System.EventHandler(this.rakam3Button_Click);
             // 
-            // button6
+            // rakam2Button
             // 
-            this.button6.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.button6.Location = new System.Drawing.Point(276, 156);
-            this.button6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(44, 45);
-            this.button6.TabIndex = 6;
-            this.button6.Text = "2";
-            this.button6.UseVisualStyleBackColor = false;
+            this.rakam2Button.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.rakam2Button.Location = new System.Drawing.Point(144, 127);
+            this.rakam2Button.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.rakam2Button.Name = "rakam2Button";
+            this.rakam2Button.Size = new System.Drawing.Size(44, 45);
+            this.rakam2Button.TabIndex = 6;
+            this.rakam2Button.Text = "2";
+            this.rakam2Button.UseVisualStyleBackColor = false;
+            this.rakam2Button.Click += new System.EventHandler(this.rakam2Button_Click);
             // 
-            // button7
+            // rakam9Button
             // 
-            this.button7.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.button7.Location = new System.Drawing.Point(328, 303);
-            this.button7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(44, 45);
-            this.button7.TabIndex = 7;
-            this.button7.Text = "9";
-            this.button7.UseVisualStyleBackColor = false;
+            this.rakam9Button.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.rakam9Button.Location = new System.Drawing.Point(196, 265);
+            this.rakam9Button.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.rakam9Button.Name = "rakam9Button";
+            this.rakam9Button.Size = new System.Drawing.Size(44, 45);
+            this.rakam9Button.TabIndex = 7;
+            this.rakam9Button.Text = "9";
+            this.rakam9Button.UseVisualStyleBackColor = false;
+            this.rakam9Button.Click += new System.EventHandler(this.rakam9Button_Click);
             // 
-            // button8
+            // rakam8Button
             // 
-            this.button8.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.button8.Location = new System.Drawing.Point(276, 303);
-            this.button8.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(44, 45);
-            this.button8.TabIndex = 8;
-            this.button8.Text = "8";
-            this.button8.UseVisualStyleBackColor = false;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
+            this.rakam8Button.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.rakam8Button.Location = new System.Drawing.Point(144, 265);
+            this.rakam8Button.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.rakam8Button.Name = "rakam8Button";
+            this.rakam8Button.Size = new System.Drawing.Size(44, 45);
+            this.rakam8Button.TabIndex = 8;
+            this.rakam8Button.Text = "8";
+            this.rakam8Button.UseVisualStyleBackColor = false;
+            this.rakam8Button.Click += new System.EventHandler(this.button8_Click);
             // 
-            // button9
+            // rakam7Button
             // 
-            this.button9.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.button9.Location = new System.Drawing.Point(220, 303);
-            this.button9.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(44, 45);
-            this.button9.TabIndex = 9;
-            this.button9.Text = "7";
-            this.button9.UseVisualStyleBackColor = false;
+            this.rakam7Button.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.rakam7Button.Location = new System.Drawing.Point(92, 265);
+            this.rakam7Button.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.rakam7Button.Name = "rakam7Button";
+            this.rakam7Button.Size = new System.Drawing.Size(44, 45);
+            this.rakam7Button.TabIndex = 9;
+            this.rakam7Button.Text = "7";
+            this.rakam7Button.UseVisualStyleBackColor = false;
+            this.rakam7Button.Click += new System.EventHandler(this.rakam7Button_Click);
             // 
-            // button10
+            // carpButton
             // 
-            this.button10.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button10.Location = new System.Drawing.Point(412, 303);
-            this.button10.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(60, 45);
-            this.button10.TabIndex = 10;
-            this.button10.Text = "x";
-            this.button10.UseVisualStyleBackColor = false;
+            this.carpButton.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.carpButton.Location = new System.Drawing.Point(272, 265);
+            this.carpButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.carpButton.Name = "carpButton";
+            this.carpButton.Size = new System.Drawing.Size(60, 45);
+            this.carpButton.TabIndex = 10;
+            this.carpButton.Text = "x";
+            this.carpButton.UseVisualStyleBackColor = false;
+            this.carpButton.Click += new System.EventHandler(this.button10_Click);
             // 
-            // button11
+            // cikarButton
             // 
-            this.button11.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button11.Location = new System.Drawing.Point(412, 227);
-            this.button11.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(60, 45);
-            this.button11.TabIndex = 11;
-            this.button11.Text = "-";
-            this.button11.UseVisualStyleBackColor = false;
+            this.cikarButton.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.cikarButton.Location = new System.Drawing.Point(272, 198);
+            this.cikarButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.cikarButton.Name = "cikarButton";
+            this.cikarButton.Size = new System.Drawing.Size(60, 45);
+            this.cikarButton.TabIndex = 11;
+            this.cikarButton.Text = "-";
+            this.cikarButton.UseVisualStyleBackColor = false;
+            this.cikarButton.Click += new System.EventHandler(this.cikarButton_Click);
             // 
-            // button12
+            // toplaButton
             // 
-            this.button12.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button12.Location = new System.Drawing.Point(412, 156);
-            this.button12.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(60, 45);
-            this.button12.TabIndex = 12;
-            this.button12.Text = "+";
-            this.button12.UseVisualStyleBackColor = false;
+            this.toplaButton.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.toplaButton.Location = new System.Drawing.Point(272, 127);
+            this.toplaButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.toplaButton.Name = "toplaButton";
+            this.toplaButton.Size = new System.Drawing.Size(60, 45);
+            this.toplaButton.TabIndex = 12;
+            this.toplaButton.Text = "+";
+            this.toplaButton.UseVisualStyleBackColor = false;
+            this.toplaButton.Click += new System.EventHandler(this.toplaButton_Click);
             // 
-            // button13
+            // bolButton
             // 
-            this.button13.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button13.Location = new System.Drawing.Point(412, 371);
-            this.button13.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(60, 45);
-            this.button13.TabIndex = 13;
-            this.button13.Text = "/";
-            this.button13.UseVisualStyleBackColor = false;
+            this.bolButton.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.bolButton.Location = new System.Drawing.Point(272, 332);
+            this.bolButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.bolButton.Name = "bolButton";
+            this.bolButton.Size = new System.Drawing.Size(60, 45);
+            this.bolButton.TabIndex = 13;
+            this.bolButton.Text = "/";
+            this.bolButton.UseVisualStyleBackColor = false;
+            this.bolButton.Click += new System.EventHandler(this.bolButton_Click);
             // 
-            // button14
+            // sonucButton
             // 
-            this.button14.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.button14.Location = new System.Drawing.Point(328, 371);
-            this.button14.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(44, 45);
-            this.button14.TabIndex = 14;
-            this.button14.Text = "=";
-            this.button14.UseVisualStyleBackColor = false;
+            this.sonucButton.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.sonucButton.Location = new System.Drawing.Point(196, 332);
+            this.sonucButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.sonucButton.Name = "sonucButton";
+            this.sonucButton.Size = new System.Drawing.Size(44, 45);
+            this.sonucButton.TabIndex = 14;
+            this.sonucButton.Text = "=";
+            this.sonucButton.UseVisualStyleBackColor = false;
+            this.sonucButton.Click += new System.EventHandler(this.sonucButton_Click);
             // 
-            // button15
+            // rakam0Button
             // 
-            this.button15.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.button15.Location = new System.Drawing.Point(276, 371);
-            this.button15.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(44, 45);
-            this.button15.TabIndex = 15;
-            this.button15.Text = "0";
-            this.button15.UseVisualStyleBackColor = false;
+            this.rakam0Button.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.rakam0Button.Location = new System.Drawing.Point(144, 332);
+            this.rakam0Button.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.rakam0Button.Name = "rakam0Button";
+            this.rakam0Button.Size = new System.Drawing.Size(44, 45);
+            this.rakam0Button.TabIndex = 15;
+            this.rakam0Button.Text = "0";
+            this.rakam0Button.UseVisualStyleBackColor = false;
+            this.rakam0Button.Click += new System.EventHandler(this.rakam0Button_Click);
             // 
-            // button16
+            // clearButton
             // 
-            this.button16.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.button16.Location = new System.Drawing.Point(220, 371);
-            this.button16.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(44, 45);
-            this.button16.TabIndex = 16;
-            this.button16.Text = "C";
-            this.button16.UseVisualStyleBackColor = false;
+            this.clearButton.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.clearButton.Location = new System.Drawing.Point(92, 332);
+            this.clearButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.clearButton.Name = "clearButton";
+            this.clearButton.Size = new System.Drawing.Size(44, 45);
+            this.clearButton.TabIndex = 16;
+            this.clearButton.Text = "C";
+            this.clearButton.UseVisualStyleBackColor = false;
+            this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkOrchid;
-            this.ClientSize = new System.Drawing.Size(768, 459);
-            this.Controls.Add(this.button16);
-            this.Controls.Add(this.button15);
-            this.Controls.Add(this.button14);
-            this.Controls.Add(this.button13);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(436, 442);
+            this.Controls.Add(this.clearButton);
+            this.Controls.Add(this.rakam0Button);
+            this.Controls.Add(this.sonucButton);
+            this.Controls.Add(this.bolButton);
+            this.Controls.Add(this.toplaButton);
+            this.Controls.Add(this.cikarButton);
+            this.Controls.Add(this.carpButton);
+            this.Controls.Add(this.rakam7Button);
+            this.Controls.Add(this.rakam8Button);
+            this.Controls.Add(this.rakam9Button);
+            this.Controls.Add(this.rakam2Button);
+            this.Controls.Add(this.rakam3Button);
+            this.Controls.Add(this.rakam4Button);
+            this.Controls.Add(this.rakam5Button);
+            this.Controls.Add(this.rakam6Button);
+            this.Controls.Add(this.rakam1Button);
+            this.Controls.Add(this.ekranLabel);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "Calculator";
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button rakam1Button;
+        private System.Windows.Forms.Button rakam6Button;
+        private System.Windows.Forms.Button rakam5Button;
+        private System.Windows.Forms.Button rakam4Button;
+        private System.Windows.Forms.Button rakam3Button;
+        private System.Windows.Forms.Button rakam2Button;
+        private System.Windows.Forms.Button rakam9Button;
+        private System.Windows.Forms.Button rakam8Button;
+        private System.Windows.Forms.Button rakam7Button;
+        private System.Windows.Forms.Button carpButton;
+        private System.Windows.Forms.Button cikarButton;
+        private System.Windows.Forms.Button toplaButton;
+        private System.Windows.Forms.Button bolButton;
+        private System.Windows.Forms.Button sonucButton;
+        private System.Windows.Forms.Button rakam0Button;
+        private System.Windows.Forms.Button clearButton;
+        private System.Windows.Forms.Label ekranLabel;
     }
 }
